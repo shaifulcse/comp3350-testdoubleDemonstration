@@ -1,4 +1,4 @@
-package notification;
+package org.example.notification;
 import org.example.Calculation;
 
 public class SalaryAlert {

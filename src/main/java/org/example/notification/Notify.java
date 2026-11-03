@@ -1,4 +1,4 @@
-package notification;
+package org.example.notification;
 
 public class Notify {
     INotification notification;

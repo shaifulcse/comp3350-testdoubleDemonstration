@@ -2,6 +2,9 @@ package notification;
 
 import org.example.Calculation;
 import org.example.database.ISalaryDatabase;
+import org.example.notification.EmailNotification;
+import org.example.notification.INotification;
+import org.example.notification.SalaryAlert;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.mockito.Mockito.*;

@@ -1,9 +1,9 @@
-package notification;
+package org.example.notification;
 
 public class EmailNotification implements INotification{
 
     String emailAddress;
-    EmailNotification(String emailAddress) throws IllegalArgumentException{
+    public EmailNotification(String emailAddress) throws IllegalArgumentException{
         checkValidEmail(emailAddress);
         this.emailAddress = emailAddress;
     }
